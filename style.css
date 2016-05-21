@@ -1,43 +1,20 @@
-.section {
-display: block;
+.container {
+  max-width: 900px;
+  display: block;
+  margin: 0px auto;
 }
 
-.bodycopy {
-  text-indent: 20px;
-font-size: 20px;
+p {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: gray;
+  font-weight: lighter;
 }
-.recipe {
-}
-li {
-  font-family: cursive;
-  font-size: 20px;
-}
-.list {
-  position: relative;
-}
-.biopic{
-  float: left;
-  padding-right: 10px;
-}
-.bio {
-font-size: 20px;
-}
-.button {
-  display: inline;
-  float: right;
-  padding-left: 10px;
-}
-.footer {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 15px;
-}
-.footerpicture {
-padding: 0px 0px 15px 0px;
-}
+
 h1 {
     display: block;
     font-size: 2em;
+    font-family: sans-serif;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
     -webkit-margin-start: 0px;
@@ -48,12 +25,13 @@ h1 {
 
 h2 {
     display: block;
-    font-size: 1.25em;
+    font-size: 1em;
+    font-family: sans-serif;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    font-weight: bold;
+    font-weight: lighter;
     color: gray;
     max-width: 500px;
 }
@@ -61,6 +39,7 @@ h2 {
 h5 {
   display: inline;
   font-size: .75em;
+  font-family: sans-serif;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
   -webkit-margin-start: 0px;
@@ -69,10 +48,70 @@ h5 {
   color: gray;
 }
 
-.container {
-  max-width: 900px;
-  display: block;
-  margin: 0px auto;
+ul {
+  list-style: none;
+  columns: 2;
+  min-height: 305px;
+  padding: 50px 80px 0px 142px;
+
+}
+
+li {
+  font-family: "comic sans ms";
+  font-size: 20px;
+  color: #666350;
+}
+
+.indent {
+  text-indent: 2.2em;
+}
+
+.section {
+display: block;
+}
+
+.bodycopy {
+  text-indent: 20px;
+  font-size: 20px;
+}
+
+.recipe {
+  background-image: url("imgs/list-bg.png");
+  background-repeat: no-repeat;
+  margin-bottom: -40px;
+  margin-top: 25px
+}
+
+.footer {
+
+}
+
+.list {
+  position: relative;
+}
+
+.biopic{
+  float: left;
+  padding-right: 10px;
+}
+
+.bio {
+  font-size: 20px;
+}
+
+.biocopy {
+  max-width: 730px;
+}
+
+.footer {
+  margin: 100px auto 0px auto;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.footerpicture {
+  padding: 0px 0px 15px 0px;
 }
 
 .social-icons{
@@ -98,8 +137,9 @@ h5 {
 .print-recipe {
   float: right;
   display: inline-block;
-  margin-top: 70px;
+  margin-top: 70px ;
   margin-right: 1px;
+  margin-bottom: 20px;
 }
 
 .top-wordmark {
@@ -108,5 +148,34 @@ h5 {
 
 .top-logo {
   margin-bottom: 10px;
->>>>>>> e811f5c53a0e29ddf35d88c44cf22c868841e383
+}
+
+.checkbox[type="checkbox"]{
+  background-color: gray;
+  width: 16px;
+  height: 16px;
+  padding: 0px 20px 0 20px;
+}
+
+.button {
+  float: right;
+  background-color: #BC7058;
+  width: 170px;
+  height: 60px;
+  border: none;
+  color: white;
+  font-size: .85em;
+  font-weight: lighter;
+  margin-top: -75px;
+  padding: 10px;
+}
+
+.gradient {
+  height: 10px;
+  background-color: grey;
+  background-image:
+    linear-gradient(
+      to right,
+        grey, white
+      );
 }
